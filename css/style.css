@@ -124,7 +124,7 @@ button {
 
 
 .header-link:hover,
-/*.header-link:focus,*/
+.header-link:focus,
 .header-tel:hover,
 .header-tel:focus,
 .header-email:hover,
@@ -252,7 +252,7 @@ button {
 }
 
 .skils-item {
-  width: calc((100% - 3 *24px)/4);
+  width: calc((100% - 3 * 24px) / 4);
   /*width: 264px;*/
 }
 
@@ -271,8 +271,6 @@ button {
   align-items: center;
   justify-content: center;
 }
-
-
 
 .skils-tile {
   font-weight: 500;
