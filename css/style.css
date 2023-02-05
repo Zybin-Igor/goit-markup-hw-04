@@ -24,7 +24,7 @@
   --lith-color: #f4f4fd;
   --footer-soc-bg-color: rgba(255, 255, 255, 0.1);
   --footer-soc-bg-hover: #31d0aa;
-  
+  --clients-icon-color:#8e8f99; 
 }
 
 h1,
@@ -280,13 +280,13 @@ button {
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
-  fill: #8e8f99;
+  fill: var(--clients-icon-color);
 }
 
 .skils-icon {
   align-items: center;
   justify-content: center;
-  background: #F4F4FD;
+  background: var(--lith-color);
 }
 
 .skils-tile {
@@ -467,11 +467,11 @@ button {
   align-items: center;
   width: 100%;
   height: 100%;
-  border-color:#8E8F99;
+  border-color: var(--clients-icon-color);
 }
 
 .clients-icon {
-  fill: #8e8f99;
+  fill: var(--clients-icon-color);
 }
 
 .clients-item:hover,
@@ -479,11 +479,14 @@ button {
   border-color: var(--click-color);
 }
 
-.clients-item:hover .clients-icon,
-.clients-item:focus .clients-icon {
+.clients-item:hover,
+.clients-item:focus  {
   fill: var(--click-color);
 }
-
+.clients-icon:hover,
+.clients-icon:focus {
+  fill: var(--click-color);
+}
 .media-social-list {
   display: flex;
   justify-content: center;
