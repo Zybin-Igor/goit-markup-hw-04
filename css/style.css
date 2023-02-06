@@ -124,7 +124,16 @@ button {
   height: auto;
   margin-left: 0;
 }
-
+.header-span {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--section-page-color);
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .header-link {
   font-weight: 500;
   font-size: 16px;
@@ -173,6 +182,11 @@ button {
 .accent {
   letter-spacing: 0.03em;
   color: var(--brand-color);
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.6;
 }
 
 .header-tel,
@@ -192,8 +206,8 @@ button {
     margin-bottom: 120px;*/
   margin-left: auto;
   margin-right: auto;
-  padding-top: 192px;
-  padding-bottom: 192px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 
 
   background-color: var(--section-page-color);
@@ -274,13 +288,15 @@ button {
 .skils-block {
   background: var(--lith-color);
   border-radius: 4px;
-  width: 265px;
-  height: 122px;
+  /*width: 265px;
+  height: 122px;*/
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
+  padding: 24px 0;
   fill: var(--clients-icon-color);
+
 }
 
 .skils-icon {
@@ -385,6 +401,7 @@ button {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   color: var(--text-decoration-color);
   /*padding-bottom: 32px;*/
 }
@@ -467,11 +484,12 @@ button {
   align-items: center;
   width: 100%;
   height: 100%;
-  border-color: var(--clients-icon-color);
+  border-color: 1px solid var(--clients-icon-color);
+  color: var(--clients-icon-color);
 }
 
 .clients-icon {
-  fill: var(--clients-icon-color);
+  fill: currentColor;
 }
 
 .clients-item:hover,
@@ -483,8 +501,8 @@ button {
 .clients-item:focus  {
   fill: var(--click-color);
 }
-.clients-icon:hover,
-.clients-icon:focus {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
   fill: var(--click-color);
 }
 .media-social-list {
@@ -660,7 +678,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 }*/
 .accent-studio {
   font-family: 'Raleway';
-  font-weight: 900;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -683,7 +701,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     padding: 0px;
     margin: 100px 0px 16px 156px;*/
   font-family: 'Raleway', sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
